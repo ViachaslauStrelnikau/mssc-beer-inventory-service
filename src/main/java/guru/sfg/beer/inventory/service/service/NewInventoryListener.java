@@ -2,9 +2,9 @@ package guru.sfg.beer.inventory.service.service;
 
 
 import guru.sfg.beer.inventory.service.domain.BeerInventory;
-import guru.commons.events.NewInventoryEvent;
+import guru.sfg.brewery.model.events.NewInventoryEvent;
 import guru.sfg.beer.inventory.service.repositories.BeerInventoryRepository;
-import guru.sfg.beer.inventory.service.web.model.BeerDto;
+import guru.sfg.brewery.model.BeerDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;
